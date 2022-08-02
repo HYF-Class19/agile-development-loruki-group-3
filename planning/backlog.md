@@ -2,7 +2,7 @@
 
 ## Must-Haves
 
-## Homepage
+### Homepage
 
 - As a user I want to see the title of the website
 - [ ] There is a prominent title at the top of the web page
@@ -17,7 +17,7 @@
 
 ## Should-Haves
 
-## Homepage
+### Homepage
 
 > these will complete the user experience, but are not necessary
 
@@ -30,7 +30,7 @@
 
 ## Could-Haves
 
-## Homepage
+### Homepage
 
 - As a user I want to see document page
 - [ ] There is a prominent navbar at the top of the web page
