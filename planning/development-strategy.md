@@ -16,9 +16,6 @@
 
 ## 0.Setup
 
--
-- ***
-
 ## 1. Title
 
 **As a user I want to ...**
