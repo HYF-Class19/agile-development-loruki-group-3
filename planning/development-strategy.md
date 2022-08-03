@@ -1,4 +1,4 @@
-# Restaurants finder
+# Loruki
 
 ---
 
