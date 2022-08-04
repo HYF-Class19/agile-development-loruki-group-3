@@ -14,11 +14,17 @@
   padding: 0;
   margin: 0;
 }
-
+html {
+  width: 100%;
+  height: 4000px;
+}
 body {
   font-family: "Lato", sans-serif;
   color: #333;
   line-height: 1.6;
+  margin: 0;
+  background-color: --light-color;
+  overflow: hidden;
 }
 
 ul {
@@ -50,4 +56,28 @@ pre {
   background: #333;
   color: #fff;
   padding: 10px;
+}
+/*---------- START NAVBAR ----------*/
+nav {
+  position: fixed;
+  top: 5%;
+  right: 0;
+  left: 0;
+  width: 319px;
+  display: table;
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+nav a {
+  position: relative;
+  width: 33.333%;
+  display: table-cell;
+  text-align: center;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+nav a:hover {
+  color: var(--secondary-color);
 }
