@@ -91,23 +91,37 @@ nav a:hover {
 /* ---------- START NAVBAR ----------- */
 
 /* ---------- Showcase ---------- */
+
 .showcase {
   height: 400px;
   background-color: var(--promary-color);
   color: #fff;
   position: relative;
 }
+
 .showcase h1 {
   font-size: 40px;
 }
+
 .showcase p {
   margin: 25px 0;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .showcase .grid {
   overflow: visible;
   grid-template-columns: 55% 45%;
   gap: 30px;
 }
+
 .showcase-form {
   position: relative;
   top: 60px;
@@ -116,9 +130,11 @@ nav a:hover {
   padding: 40px;
   z-index: 100;
 }
+
 .showcase-form .form-control {
   margin: 30px 0;
 }
+
 .showcase-form input[type="text"],
 .showcase-form input[type="email"] {
   border: 0;
@@ -127,6 +143,7 @@ nav a:hover {
   padding: 3px;
   font-size: 15px;
 }
+
 .showcase-form input:focus {
   outline: none;
 }
@@ -145,14 +162,7 @@ nav a:hover {
   -moz-transform: skewY(-4deg);
   -ms-transform: skewY(-4deg);
 }
-.grid {
-  display: grid;
-  grid-template-columns: 300px 300px;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+
 .card {
   background-color: #fff;
   color: #333;
@@ -161,6 +171,7 @@ nav a:hover {
   padding: 20px;
   margin: 10px;
 }
+
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -170,10 +181,12 @@ nav a:hover {
   border: none;
   border-radius: 5px;
 }
+
 .btn-outline {
   background-color: transparent;
   border: 1px #fff solid;
 }
+
 .btn:hover {
   transform: scale(098);
 }
