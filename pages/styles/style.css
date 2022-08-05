@@ -94,7 +94,7 @@ nav a:hover {
 
 .showcase {
   height: 400px;
-  background-color: var(--promary-color);
+  background-color: #047aed;
   color: #fff;
   position: relative;
 }
@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .showcase p {
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .grid {
@@ -177,7 +177,7 @@ nav a:hover {
   padding: 10px 30px;
   cursor: pointer;
   background-color: var(--primary-color);
-  color: #fff;
+  color: white;
   border: none;
   border-radius: 5px;
 }
