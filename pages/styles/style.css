@@ -64,13 +64,16 @@ pre {
 
 nav {
   position: fixed;
+  margin: 0% 0% 10% 0%;
   top: 5%;
-  right: 0;
+  right: 30%;
   left: 0;
   width: 319px;
+  color: var(--light-color);
   display: table;
   margin: 0 auto;
   transform: translateY(-50%);
+  z-index: 2;
 }
 
 nav a {
@@ -120,6 +123,11 @@ nav a:hover {
   overflow: visible;
   grid-template-columns: 55% 45%;
   gap: 30px;
+}
+
+.showcase-text {
+  position: relative;
+  margin-left: 45%;
 }
 
 .showcase-form {
