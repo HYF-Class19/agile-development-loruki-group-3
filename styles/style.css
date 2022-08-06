@@ -26,11 +26,20 @@ body {
   line-height: 1.6;
   margin: 0;
   background-color: --light-color;
-  overflow: hidden;
+}
+
+nav {
+  list-style-type: none;
+
+  float: right;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
 }
 
 a {
@@ -42,7 +51,7 @@ h1,
 h2 {
   font-weight: 300;
   line-height: 1.2;
-  margin: 10px 0;
+  margin: 15px;
 }
 
 p {
@@ -63,14 +72,11 @@ pre {
 /* ---------- START NAVBAR ---------- */
 
 nav {
-  position: fixed;
+  position: absolute;
   margin: 0% 0% 10% 0%;
-  top: 5%;
-  right: 30%;
-  left: 0;
+  top: 3%;
   width: 319px;
   color: var(--light-color);
-  display: table;
   transform: translateY(-50%);
   z-index: 2;
 }
@@ -88,6 +94,8 @@ nav a {
 
 nav a:hover {
   color: var(--secondary-color);
+  text-decoration: underline;
+  text-transform: var(--light-color);
 }
 
 /* ---------- START NAVBAR ----------- */
