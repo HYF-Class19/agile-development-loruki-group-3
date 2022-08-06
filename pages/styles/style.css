@@ -71,7 +71,6 @@ nav {
   width: 319px;
   color: var(--light-color);
   display: table;
-  margin: 0 auto;
   transform: translateY(-50%);
   z-index: 2;
 }
